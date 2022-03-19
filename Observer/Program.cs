@@ -3,6 +3,7 @@
 using Observer.Entities;
 
 WeatherData subject = new ();
+var dis = new CurrentConditionDisplay(subject);
 subject.Data = new WeatherCharacteristics()
 {
     Humidity = 4,

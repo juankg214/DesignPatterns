@@ -14,11 +14,12 @@ public class CurrentConditionDisplay: DisplayElement,Observer
     
     public void Display()
     {
-        Console.WriteLine();
+        Console.WriteLine("Temperature is " + _data.Temperature);
     }
 
     public void Update(WeatherCharacteristics data)
     {
-        throw new NotImplementedException();
+        _data = data;
+        Display();
     }
 }
