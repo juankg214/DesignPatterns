@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{86A9499D-3A7F-4B3F-AA18-9EE367D5B1F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{C0DD2420-FA25-44D5-92A7-FCDA44A2BEA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{FC7F1D7C-E22A-4351-B32B-146770E96D53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86A9499D-3A7F-4B3F-AA18-9EE367D5B1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A9499D-3A7F-4B3F-AA18-9EE367D5B1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A9499D-3A7F-4B3F-AA18-9EE367D5B1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A9499D-3A7F-4B3F-AA18-9EE367D5B1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7F1D7C-E22A-4351-B32B-146770E96D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7F1D7C-E22A-4351-B32B-146770E96D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7F1D7C-E22A-4351-B32B-146770E96D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7F1D7C-E22A-4351-B32B-146770E96D53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
